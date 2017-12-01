@@ -248,7 +248,7 @@ namespace AlgorytmyPrzetwarzaniaObrazow.Utils
                     }
 
                     if (typ_scalowania == 2)
-                    { // trójwartościowy
+                    { // trujwartościowy
                         if (dane2[i + dodaj, j + dodaj] < 0)
                         {
                             dane2[i + dodaj, j + dodaj] = 0;

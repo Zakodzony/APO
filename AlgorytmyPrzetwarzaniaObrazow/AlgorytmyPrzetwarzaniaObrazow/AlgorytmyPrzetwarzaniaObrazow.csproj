@@ -67,6 +67,12 @@
     <Compile Include="Dialogs\ComparisonDialog.Designer.cs">
       <DependentUpon>ComparisonDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dialogs\HoughDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\HoughDialog.Designer.cs">
+      <DependentUpon>HoughDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dialogs\StretchingDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,7 @@
     <Compile Include="Model\FastBitmap.cs" />
     <Compile Include="Utils\Cwiczenie2.cs" />
     <Compile Include="Utils\Cwiczenie3.cs" />
+    <Compile Include="Utils\HoughFunctions.cs" />
     <Compile Include="Views\ImageForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +99,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dialogs\HoughDialog.resx">
+      <DependentUpon>HoughDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

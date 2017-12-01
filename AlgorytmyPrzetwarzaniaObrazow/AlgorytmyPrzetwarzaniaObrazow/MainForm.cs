@@ -157,5 +157,12 @@ namespace AlgorytmyPrzetwarzaniaObrazow
             if (dialog.ShowDialog() == DialogResult.OK)
                 form.Image = dialog.Bitmap;
         }
+
+        private void houghToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            ImageForm form = (ImageForm)ActiveMdiChild;
+            HoughDialog dialog = new HoughDialog((Bitmap)form.Image.Bitmap.Clone());
+            dialog.ShowDialog();
+        }
     }
 }

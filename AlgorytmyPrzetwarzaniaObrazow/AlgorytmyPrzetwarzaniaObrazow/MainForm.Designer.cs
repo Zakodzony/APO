@@ -44,6 +44,8 @@
             this.progowanieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.redukcjaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bit1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bity4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bitow7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rozciaganieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uOPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dwuargumentoweToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,8 +53,7 @@
             this.ćwiczenie4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ćwiczenie5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.bity4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bitow7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.houghToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +65,8 @@
             this.ćwiczenie2ToolStripMenuItem,
             this.ćwiczenie3ToolStripMenuItem,
             this.ćwiczenie4ToolStripMenuItem,
-            this.ćwiczenie5ToolStripMenuItem});
+            this.ćwiczenie5ToolStripMenuItem,
+            this.houghToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
@@ -185,9 +187,23 @@
             // bit1ToolStripMenuItem
             // 
             this.bit1ToolStripMenuItem.Name = "bit1ToolStripMenuItem";
-            this.bit1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bit1ToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.bit1ToolStripMenuItem.Text = "1 bit";
             this.bit1ToolStripMenuItem.Click += new System.EventHandler(this.bit1ToolStripMenuItem_Click);
+            // 
+            // bity4ToolStripMenuItem
+            // 
+            this.bity4ToolStripMenuItem.Name = "bity4ToolStripMenuItem";
+            this.bity4ToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.bity4ToolStripMenuItem.Text = "4 bity";
+            this.bity4ToolStripMenuItem.Click += new System.EventHandler(this.bity4ToolStripMenuItem_Click);
+            // 
+            // bitow7ToolStripMenuItem
+            // 
+            this.bitow7ToolStripMenuItem.Name = "bitow7ToolStripMenuItem";
+            this.bitow7ToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.bitow7ToolStripMenuItem.Text = "7 bitów";
+            this.bitow7ToolStripMenuItem.Click += new System.EventHandler(this.bitow7ToolStripMenuItem_Click);
             // 
             // rozciaganieToolStripMenuItem
             // 
@@ -230,19 +246,12 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // bity4ToolStripMenuItem
+            // houghToolStripMenuItem
             // 
-            this.bity4ToolStripMenuItem.Name = "bity4ToolStripMenuItem";
-            this.bity4ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.bity4ToolStripMenuItem.Text = "4 bity";
-            this.bity4ToolStripMenuItem.Click += new System.EventHandler(this.bity4ToolStripMenuItem_Click);
-            // 
-            // bitow7ToolStripMenuItem
-            // 
-            this.bitow7ToolStripMenuItem.Name = "bitow7ToolStripMenuItem";
-            this.bitow7ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.bitow7ToolStripMenuItem.Text = "7 bitów";
-            this.bitow7ToolStripMenuItem.Click += new System.EventHandler(this.bitow7ToolStripMenuItem_Click);
+            this.houghToolStripMenuItem.Name = "houghToolStripMenuItem";
+            this.houghToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.houghToolStripMenuItem.Text = "Hough";
+            this.houghToolStripMenuItem.Click += new System.EventHandler(this.houghToolStripMenuItem_Click_1);
             // 
             // MainForm
             // 
@@ -288,6 +297,7 @@
         private System.Windows.Forms.ToolStripMenuItem bit1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bity4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bitow7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem houghToolStripMenuItem;
     }
 }
 
